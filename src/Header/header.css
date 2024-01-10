@@ -1,0 +1,45 @@
+/* .header1{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.about{
+    margin-left: 35px;
+}
+.header2{
+    display: flex;
+} */
+
+/* CSS for Navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .navbar h1 {
+    margin: 0;
+  }
+  
+  .navbar__right ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar__right li {
+    margin-right: 20px;
+  }
+  
+  .navbar__right a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .navbar__right a:hover {
+    color: #f0f0f0;
+  }
+  

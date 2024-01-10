@@ -1,0 +1,59 @@
+.profileContainer{
+    display: flex;
+    justify-content: space-around;
+
+}
+.profileContent{
+    width: 400px;
+}
+h5{
+    color: #FDC435;
+    width: 700px;
+    font-size: 20px;
+    line-height: 27.28px;
+}
+.name{
+    font-size: 64px;
+    line-height: 76.8px;
+    font-weight: bold;
+    font-family: 'Playfair Display';
+    width: 475px;
+}
+.para{
+    width: 350px;
+    height: 108px;
+    color: #828282;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+.imgContainer{
+    width: 650px;
+
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 650px; /* adjust as needed */
+        z-index: -1; /* This places the image below the content */
+}
+.projectsButton{
+    background-color: #FDC435;
+    padding: 5px;
+    border-radius: 5px;
+    width: 80px;
+    height: 35px;
+    border-width: 0px;
+    font-weight: bold;
+    margin: 5px;
+
+}
+.linkedinButton{
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 5px;
+    width: 80px;
+    height: 35px;
+    border-width: 2px;
+    font-weight: bold;
+    margin: 5px;
+}
